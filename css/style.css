@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 .home{
-    height: 85vh;
+    height: 95vh;
     margin-top: 3em;
     
 }
@@ -50,6 +50,44 @@ img{
     box-shadow: 0 2px 25px 6px rgba(235, 154, 4,.25);
     border-radius: 2em;
     background-image: linear-gradient(to right, orange,rgb(177, 118, 10));
+}
+
+
+
+
+/* about-me-section */
+
+
+.about-me{
+   
+    height: 60vh;
+    background-image: url(/images/shapes/Frame\ 58.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-indent{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.about-item img{
+    width: 50%;
+    display: inline-block;
+    margin-top: 2.5em;
+}
+
+.about-item{
+    width: 45%;
+}
+h2{
+    font-size: 2em;
+    color: rgb(78, 41, 41);
+}
+.about-item p{
+    margin-top: 1.7em ;
+    margin-bottom: 5em;
 }
 
 
