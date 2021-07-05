@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.split{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home{
+    height: 85vh;
+    margin-top: 3em;
+    
+}
+img{
+    width: 100%;
+}
+.home-item{
+    width: 45%;
+}
+.home-item h1{
+    font-size: 3.5em;
+    font-weight: 900;
+    word-spacing: 5px;
+    color: rgb(73, 49, 49);
+    line-height: 1.2em;
+}
+.home-item p{
+    font-size: 1.1em;
+    color: rgb(150, 48, 150);
+    margin: 2.5em 0;
+}
+.clrOrange{
+    color:rgb(228, 149, 4) ;
+}
+.gradientBtn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    box-shadow: 0 2px 25px 6px rgba(235, 154, 4,.25);
+    border-radius: 2em;
+    background-image: linear-gradient(to right, orange,rgb(177, 118, 10));
+}
+
+
