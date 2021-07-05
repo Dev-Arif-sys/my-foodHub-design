@@ -61,7 +61,7 @@ img{
 .about-me{
    
     height: 60vh;
-    background-image: url(../shapes/frameused.JPG);
+    background-image: url(images/shapes/frameused.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
