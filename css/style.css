@@ -2,9 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Roboto', sans-serif;
+   
+}
+
+header{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+    margin-top: 1em;
+
+}
+header h3{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(80, 48, 54);
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1em;
+    color: rgb(75, 65, 52);
+}
+#headerBtn{
+    padding: .7em 1.5em;
+    background-color: brown;
+    border-radius: 6px;
+    color: white;
 }
 
 .container{
@@ -27,7 +57,7 @@ img{
 .home-item{
     width: 45%;
 }
-.home-item h1{
+ .home-item h1{
     font-size: 3.5em;
     font-weight: 900;
     word-spacing: 5px;
@@ -36,7 +66,7 @@ img{
 }
 .home-item p{
     font-size: 1.1em;
-    color: rgb(150, 48, 150);
+    color: rgb(90, 46, 90);
     margin: 2.5em 0;
 }
 .clrOrange{
@@ -49,7 +79,12 @@ img{
     padding: 1em 2em;
     box-shadow: 0 2px 25px 6px rgba(235, 154, 4,.25);
     border-radius: 2em;
+    transition: opacity .3s;
     background-image: linear-gradient(to right, orange,rgb(177, 118, 10));
+}
+
+.gradientBtn:hover{
+    opacity: .8;
 }
 
 
@@ -61,7 +96,7 @@ img{
 .about-me{
    
     height: 60vh;
-    background-image: url(images/shapes/frameused.JPG);
+    background-image: url(../images/shapes/frameused.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,8 +109,8 @@ img{
 
 .about-item img{
     width: 50%;
-    display: inline-block;
-    margin-top: 2.5em;
+    display: block;
+    margin-top:2.5em;
 }
 
 .about-item{
@@ -91,3 +126,157 @@ h2{
 }
 
 
+
+
+/* dinner-design */
+.dinner{
+    text-align: center;
+    margin: 4em 0;
+}
+.dinner h2{
+    margin-bottom:2em ;
+}
+.dinner-step img{
+width: 150px;
+} .dinner-step h3{
+    margin: 1em 0;
+}
+.dinner-step{
+    width: 350px;
+}
+
+
+
+
+
+/* recipe-design */
+
+.recipes{
+    margin-top: 5em;
+    text-align: center;
+}
+
+.recipes a{
+  
+    margin-top: 2em;
+}
+#recipe-heading{
+    text-align: center;
+}
+#recipe-heading p{
+   margin-top: .5em;
+   margin-bottom: 1.7em;
+}
+
+.recipe{
+    width: 350px;
+    text-align: left;
+    height: 550px;
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0,.25);
+    padding: 1em;
+    border-radius: 1.5em;
+}
+.recipe img{
+    border-radius: 1.5em;
+}
+.recipe h3{
+    margin: 1em 0 .3em 0;
+    color: rgb(15, 13, 13);
+    font-size: 1.7em;
+  
+}
+
+/* reach-section */
+.reach{
+    margin-top: 4.5em;
+    margin-bottom: 3em;
+    padding: 2em 0;
+    width: 80%;
+    border-radius: .5em;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0,.25);
+}
+.reach h1{
+    font-size: 2em;
+    font-weight: 900;
+    color: rgb(44, 31, 31);
+}
+.reach p{
+    font-size: .8em;
+    margin-top: 1em;
+    letter-spacing: 2px;
+}
+
+
+
+
+/* contact-design */
+.contact{
+    margin: 0 auto;
+  margin-top: 4em;
+  border: 1px solid rgb(196, 194, 192);
+  margin-bottom: 2em;
+  padding: 3em 0;
+  width: 90%;
+  
+}
+.contact-text{
+    width: 50%;
+    padding: 2em;
+}
+.contact-text h1{
+    font-size: 3em;
+}
+
+.contact-form{
+    width: 50%;
+    padding: 2em;
+}
+input{
+    width: 300px;
+    padding: .5em ;
+   
+    margin-top: .4em;
+    font-size: 1.3em;
+}
+#margin{
+    margin-left: 1em;
+}
+textarea{
+    width: 100%;
+    margin: 1em 0;
+    padding: .5em;
+}
+#submitBtn{
+font-size: 1.1em;
+margin-left: 0;
+background-color: transparent;
+width: 100px;
+cursor: pointer;
+border-radius: 4px;
+transition: background-color .3s;
+border: 1px solid rgb(196, 194, 192);
+}
+#submitBtn:hover{
+background-color:rgb(196, 194, 192); 
+
+}
+
+
+/* footer-design */
+footer{
+    padding: 3em;
+    text-align: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer h2{
+   
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: rgb(92, 92, 92);
+}
+footer p{
+    color: rgb(240, 234, 234);
+    font-size: .8em;
+    margin-top: 1.5em;
+}
